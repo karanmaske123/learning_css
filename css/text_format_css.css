@@ -1,0 +1,106 @@
+ 
+     /* <!-- letter spacing and word spacing and text indent eg */
+
+ .word_space{
+    word-spacing:90px;
+ }
+ 
+ .letter_spacing{
+    letter-spacing: 15px;
+    color:blue;
+    background-color: black;
+ }
+ 
+
+ .t_indent{
+    color:coral;
+    text-indent: 90px;
+ }
+
+
+
+ /* eg of line height =its makes text in readable format */
+.line_height{
+    line-height: 27px;
+} 
+ 
+ 
+ 
+ /* text-shadow eg */
+
+ .t_shadow{
+    font-size:90px;
+    text-align:center;
+    color:blue;
+    text-shadow: 9px 9px 0px red;
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* text_align_example */
+.t_align_r{
+    text-align: right;
+} 
+ 
+.t_align_c{
+    text-align:center;
+}
+
+.t_align_l{
+    text-align:left ;
+    text-decoration: line-through overline  underline;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* text_decoration_example */
+
+.t_decor_underline{
+    text-decoration: underline;
+}
+
+.t_decor_overline{
+    text-decoration: overline;
+}
+
+
+.t_decor_line_through{
+    text-decoration: line-through;
+}
+
+.t_decor_all{
+    text-decoration:line-through underline overline;
+}
+
+
+
+
+
+
+
+
+
+/* Text format example */
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+
+.t_transform_lowercase{
+    text-transform:lowercase;
+}
+
+.t_transform_captalized{
+    text-transform:capitalize;
+}

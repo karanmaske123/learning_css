@@ -1,0 +1,23 @@
+.f_family1{
+    font-family:cursive ;
+}
+
+.f_family2{
+    font-family: 'Times New Roman', Times, serif;     /*here the reason of three styled used is some browser not accept some font family.and this three sfont-family  output is same.*/
+}
+
+.f_family3{
+    font-family: Arial;
+}
+
+.f_family4{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.f_weight{
+    font-weight: 900;
+    line-height: 28px;
+    color:black;
+    font-style: italic;
+    font-variant: small-caps;
+}

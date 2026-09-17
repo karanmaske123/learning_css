@@ -1,0 +1,82 @@
+/* class selsectors 
+element selectors */
+
+h4{
+
+    color:coral;
+    background-color: black;
+    font-size:80px;
+}
+h3{
+    color:coral;
+    background-color: gray;
+    font-size:90px;
+}
+
+
+/* Css selectors
+Class selectors  Examples */
+.heading6{
+    color:blue;
+    background-color: black;
+    font-size:90px;
+}
+
+.para1{
+    color:red;
+}
+
+
+/* #id selectors */
+
+#heading1{
+    color:blue;
+    background-color:orange;
+    font-size:90px;
+}
+#heading2{
+    color:yellow;
+    background-color:orange;
+    font-size:60px;
+}
+
+h2{
+    color:red;
+    font-size:50px;
+}
+ 
+
+.heading12{
+    color:orange;
+    font-size:90px;
+}
+.heading21{
+    color:blue;
+    font-size:90px;
+}
+
+
+
+.heading-color{
+    color:red;
+}
+.heading-font-size{
+    font-size:90px;
+}
+
+.heading-bgcolor{
+    background-color: greenyellow;
+}
+
+
+
+/* Here specificity of id is higher than class selector */
+.bg-color{
+    background-color: blue;
+    font-size: 90px;
+}
+#heading5{
+    color:blueviolet;
+    background-color: red;
+    font-size: 80px;
+}

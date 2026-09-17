@@ -1,0 +1,19 @@
+.t_shadow{
+    
+    text-shadow:8px 5px 4px blue;
+    color:red;
+    font-size:90px;
+}
+.box_shadow{
+    width: 400px;
+    box-shadow: 60px 60px 90px;
+}
+.box_shadow1{
+    width: 400px;
+    box-shadow: 9px 15px 9px;
+}
+.d_shadow1{
+    width: 400px;
+    filter: drop-shadow(9px 15px 9px aqua);
+    
+}
