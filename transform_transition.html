@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+.b_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: 20px;
+    margin-left: 100px;
+    padding-top:100px;
+    justify-content: center;
+   
+
+}
+.s_box{
+    background-color: deeppink;
+    color:white;
+    border-radius: 10px;
+    height:200px;
+    width: 200px;
+    font-size: 20px;
+    padding:20px;
+    margin:20px;
+    border:5px solid gray;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease-in;
+    
+}
+
+
+
+.b1:hover{
+    transform: translate(525px,525px);
+}
+
+.b2:hover{
+    transform:translateX(-300px) ;
+}
+.b3:hover{
+    transform: translateY(-200px);
+}
+.b4:hover{
+    transform: rotate(1080deg);
+    background-color: black;
+}
+.b5:hover{
+    transform: skew(720deg);
+}
+.b6:hover{
+    transform: scale(3.2);
+}
+
+
+</style>
+<body>
+    <!-- div.b_container>div.s_box*6 -->
+     <div class="b_container">
+        <div class="s_box  b1">translate</div>
+        <div class="s_box  b2">translateX</div>
+        <div class="s_box  b3">translateY</div>
+        <div class="s_box  b4">rotate</div>
+        <div class="s_box  b5">skew</div>
+        <div class="s_box  b6">scale</div>
+     </div>
+
+    
+</body>
+</html>
