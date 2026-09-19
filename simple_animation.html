@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+            position: relative;
+            background-color: yellow;
+            animation:movingBox;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            /* animation-delay: 3s; */
+            /* animation-direction: reverse; */
+            background-size:cover;
+
+            /*  */
+            /* text-align: center;
+            padding-top: 90px;
+            font-size: 50px;
+            font-style: italic;
+            */
+        }
+        /* @keyframes movingBox{
+            0%{background-color: yellow;left:0px;top:0px;}
+            25%{background-color: red;left:300px;top:0px}
+            50%{background-color: blue;left:300px;top:300px;}
+            75%{background-color: green;left:0px;top:300px}
+            100%{background-color: yellow;left:0px;top:0px;}
+        } */
+         @keyframes movingBox{
+            
+            0%{background-image: url("images/animal-big-fur-247502.jpg");}
+            25%{background-image:url("images/image2.webp");}
+            50%{background-image: url("images/image5.webp");}
+            75%{background-image:  url("images/image5.webp");}
+            100%{background-image:  url("images/animal-big-fur-247502.jpg");}
+            
+            
+         }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
